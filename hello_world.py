@@ -61,6 +61,18 @@ favorite_foods.append(new_food)
 print("Updated food list:", favorite_foods)
 
 # -------------------------
+# DICTIONARIES
+# -------------------------
+
+# Similar to lists but represent relationships, or key-value pairs
+employee = {"name": "Bill", "salary": 16.0, "yearsWithCompany" : 2, "title": "Custodian"}
+
+for key in employee:
+    print(key, employee[key])
+
+
+
+# -------------------------
 # CONDITIONS
 # -------------------------
 
